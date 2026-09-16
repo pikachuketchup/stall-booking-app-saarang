@@ -1,0 +1,10 @@
+{
+  "name": "box-booking-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  }
+}
